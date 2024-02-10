@@ -11,7 +11,7 @@
 
 .texto {
     position: absolute;
-    width: 50%;
+    width: 80%;
     height: 60%;
     left: 12%;
     top: 15%;
@@ -65,7 +65,7 @@ texto-active {
     padding: 1% 0;
     position: absolute;
     width: 80%;
-    left: 26%;
+    left: 36%;
     top: 82%;
     gap: 10px;
 }
@@ -109,10 +109,10 @@ texto-active {
     display: flex;
     justify-content: center;
     position: absolute;
-    width: 30%;
-    height: 90%;
-    left: 60%;
-    top: 5%;
+    width: 40%;
+    height: 20%;
+    left: 30%;
+    top: 55%;
     background: #ffff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8); 
     border-radius: 32px;
@@ -123,8 +123,8 @@ texto-active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1%;
-    gap: 16px;
+    padding: 3%;
+    gap: 8px;
     position: absolute;
     width: 100%;
     top: 5%;
@@ -135,19 +135,19 @@ texto-active {
     width: 60%;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 100;
+    font-size: 18px;
     line-height: 120%;
     text-align: center;
     color: rgb(226, 155, 63);
 }
 
 .mensaje-encriptado p {
-    width: 80%;
+    width: 98%;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 13px;
     line-height: 150%;
     text-align: center;
     color: #495057;
@@ -203,13 +203,13 @@ texto-active {
         width: 80%;
         height: 15%;
         left: 10%;
-        top: 80%;
+        top: 50%;
     }
 
     .mensaje-encriptado {
-        width: 100%;
-        top: 5%;
-    }
+        width: 70;
+        top: 3%;
+    } 
 }
 
 
